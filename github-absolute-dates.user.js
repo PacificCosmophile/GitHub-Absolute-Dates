@@ -1,18 +1,22 @@
 // ==UserScript==
-// @name         GitHub Absolute Dates
-// @namespace    https://github.com/PacificCosmophile/GitHub-Absolute-Dates
-// @description  Changes relative dates to absolute dates on GitHub
-// @version      1.0
-// @author       PacificCosmophile+Vibecoded
-// @license      MIT License
-// @icon         https://raw.githubusercontent.com/PacificCosmophile/GitHub-Absolute-Dates/main/icons/icon-green144.png
-// @match        https://*.github.com/*
-// @run-at       document-start
-// @grant        GM_getValue
-// @grant        GM_setValue
-// @grant        GM_addStyle
-// @grant        GM_registerMenuCommand
-// @require      https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js
+// @name                 GitHub Absolute Dates
+// @namespace            https://github.com/PacificCosmophile/GitHub-Absolute-Dates
+// @description          Changes relative dates to absolute dates on GitHub
+// @version              1.0
+// @author               PacificCosmophile+Vibecoded
+// @license              MIT License
+// @icon                 https://raw.githubusercontent.com/PacificCosmophile/GitHub-Absolute-Dates/main/icons/icon-green144.png
+// @homepageURL          https://github.com/PacificCosmophile/GitHub-Absolute-Dates
+// @supportURL           https://github.com/PacificCosmophile/GitHub-Absolute-Dates/issues
+// @downloadURL          https://update.greasyfork.org/scripts/588662/GitHub%20Absolute%20Dates.user.js
+// @updateURL            https://update.greasyfork.org/scripts/588662/GitHub%20Absolute%20Dates.meta.js
+// @match                https://*.github.com/*
+// @run-at               document-start
+// @grant                GM_getValue
+// @grant                GM_setValue
+// @grant                GM_addStyle
+// @grant                GM_registerMenuCommand
+// @require              https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js
 // ==/UserScript==
 
 (()=> {
