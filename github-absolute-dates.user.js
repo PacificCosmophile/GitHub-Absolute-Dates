@@ -262,35 +262,31 @@ function openSettings() {
     ;
     const preview=overlay.querySelector('#ad-preview');
 
-    const updatePreview=()=> {
+    const updatePreview = () => {
 
-        try {
+    try {
 
-            const prefix=prepositionInput.value.trim();
+        const prefix = prepositionInput.value.trim();
+        const formatted = dayjs().format(formatInput.value);
 
-            const formatted=dayjs().format(formatInput.value);
-
-            preview.innerHTML='<span style="color:#8B949E">Example:</span> ' + (prefix ? `<span style="color:#E6EDF3" >$ {
-                    prefix
-                }
-
-                </span> ` : '') + `<span style="color:#7EE787" >$ {
-                formatted
-            }
-
-            </span>`;
-
-        }
-
-        catch {
-
-            preview.innerHTML='<span style="color:#8B949E">Example:</span> ' + '<span style="color:#F85149">Invalid format</span>';
-
-        }
+        preview.innerHTML =
+            '<span style="color:#8B949E">Example:</span> ' +
+            (prefix
+                ? `<span style="color:#E6EDF3">${prefix}</span> `
+                : '') +
+            `<span style="color:#7EE787">${formatted}</span>`;
 
     }
 
-    ;
+    catch {
+
+        preview.innerHTML =
+            '<span style="color:#8B949E">Example:</span> ' +
+            '<span style="color:#F85149">Invalid format</span>';
+
+    }
+
+};
 
     const updateSaveState=()=> {
 
