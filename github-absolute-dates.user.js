@@ -2,7 +2,7 @@
 // @name                 GitHub Absolute Dates
 // @namespace            https://github.com/PacificCosmophile/GitHub-Absolute-Dates
 // @description          Changes relative dates to absolute dates on GitHub
-// @version              1.0
+// @version              1.1
 // @author               PacificCosmophile+Vibecoded
 // @license              MIT License
 // @icon                 https://raw.githubusercontent.com/PacificCosmophile/GitHub-Absolute-Dates/main/icons/icon-green144.png
